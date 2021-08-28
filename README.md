@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Tesla Clone
 
 Instalação das dependências
 
