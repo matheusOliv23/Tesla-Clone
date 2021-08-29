@@ -8,11 +8,7 @@ export const Container = styled.div`
   .colored:nth-child(1) {
   background-image: url(${img}); 
   background-size: cover;
-  background-position: contain 50%;
- 
-
- 
-
+  background-position: 50% 50%;
 }
   .colored:nth-child(2) {
     background-image: url(${img});  
