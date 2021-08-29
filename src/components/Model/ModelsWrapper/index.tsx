@@ -1,7 +1,9 @@
 import React, {useRef, useCallback, useState} from 'react'
 import ModelsContext, { CarModel } from '../ModelsContext'
 
-import {Container, OverlaysRoot, ModelOverlay} from './styles'
+import ModelOverlay from '../ModelOverlay'
+
+import {Container, OverlaysRoot} from './styles'
 
 
 const ModelsWrapper: React.FC = ({children}) => {

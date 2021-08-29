@@ -1,21 +1,31 @@
 import styled from "styled-components";
 
+import img from './img/piroad.jpg'
+
+
 
 export const Container = styled.div` 
-.colored:nth-child(1) {
-background: #f1ffe7;
+  .colored:nth-child(1) {
+  background-image: url(${img}); 
+  background-size: cover;
+  background-position: contain 50%;
+ 
+
+ 
+
 }
-.colored:nth-child(2) {
-background: #dfffd9;
+  .colored:nth-child(2) {
+    background-image: url(${img});  
+  
 }
 .colored:nth-child(3) {
-background: #cdfeca;
+    background-image: url(${img});  
 }
 .colored:nth-child(4) {
-background: #bbfebb;
+  background-image: url(${img});  
 }
 .colored:nth-child(5) {
-background: #a9fdac;
+  background-image: url(${img});  
 }
 .colored:nth-child(6) {
 background: #90f29c;

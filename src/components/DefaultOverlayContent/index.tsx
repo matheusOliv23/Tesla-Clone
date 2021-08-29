@@ -14,7 +14,7 @@ const DefaultOverlayContent: React.FC<Props> = ({
     <Container>
       <Heading>
         <h1>{label}</h1>
-        <h2>{description}</h2>
+        <h2>{description}</h2>        
       </Heading>
 
     <Buttons>
