@@ -28,7 +28,7 @@ const ModelOverlay: React.FC<Props>= ({children, model}) => {
   useLayoutEffect(()=> {
     function onResize() {    
       window.requestAnimationFrame(()=> setDimensions(getSectionDimensions()))}
-
+     
     window.addEventListener('resize', onResize)
 
     return () => window.removeEventListener('resize', onResize)

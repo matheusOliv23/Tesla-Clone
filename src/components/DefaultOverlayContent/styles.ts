@@ -16,14 +16,14 @@ export const Heading = styled.div`
     font-weight: 500;
     font-size: 40px;
     line-height: 48px;
-    color: #393c41;
+    color: #fff;
   }
 
   >h2{
     font-weight: normal;
     font-size: 14px;
     line-height: 20px;
-    color: #5e5c62;
+    color: #fff;
   }
 `
 
@@ -40,7 +40,7 @@ export const Buttons = styled.div`
     color: #fff;
     opacity: 0.8;
 
-    font-size: 12px;
+    font-size: 20px;
     font-weight: 500;
     letter-spacing: 0.4px;
     text-transform: uppercase;

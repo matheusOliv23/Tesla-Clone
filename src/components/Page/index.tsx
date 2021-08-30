@@ -2,8 +2,9 @@ import React from 'react'
 
 import { ModelsWrapper,ModelSection } from '../Model'
 import DefaultOverlayContent from '../DefaultOverlayContent'
+import UniqueOverlay from '../UniqueOverlay'
 
-import { Container } from './styles'
+import { Container, Spacer } from './styles'
 
 const Page: React.FC = () =>{
   return (
@@ -12,13 +13,11 @@ const Page: React.FC = () =>{
       <ModelsWrapper>
         <div>
           {[
-            'Model One',
-            'Model Two',
+            'Mercedes Class S',
+            'Mercedes Class S',
             'Model Three',
             'Model Four',
-            'Model Five',
-            'Model Six',
-            'Model Seven'
+            'Model Five',            
           ].map( modelName => (
             <ModelSection
               key={modelName}
@@ -32,7 +31,10 @@ const Page: React.FC = () =>{
             />  
           ))}                
          </div>
+        
+        <Spacer/>
 
+        <UniqueOverlay/>
       </ModelsWrapper>
     </Container>
 
