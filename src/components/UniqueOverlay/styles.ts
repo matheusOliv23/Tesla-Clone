@@ -30,8 +30,8 @@ export const Header = styled.header`
 
 export const Logo = styled(LogoSVG)`
   height: 17px;
-  cursor: pointer;
-  color: #fff;
+  cursor: pointer; 
+  font-weight: bold;
 `
 export const Burger = styled(BurgerSVG)`
   width: 24px;

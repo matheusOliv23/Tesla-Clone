@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 import img from './img/piroad.jpg'
 import img2 from './img2/pexels.jpg'
-import img3 from './img3/jteder.jpg'
-import img4 from './img4/rezaorbaniI8.jpg'
+import img3 from './img3/bmw.jpg'
+import img4 from './img4/mikesbmw.jpg'
 import img5 from './img5/tobyparsonsm4.jpg'
 
 
@@ -15,9 +15,10 @@ export const Container = styled.div`
   background-position: 50% 50%;
 }
   .colored:nth-child(2) {
-    background-image: url(${img2}); 
+  
+  background-image: url(${img2}); 
   background-size: cover;
-  background-position: 50% 50%;  
+  background-position: 50% 50%;
   
 }
 .colored:nth-child(3) {

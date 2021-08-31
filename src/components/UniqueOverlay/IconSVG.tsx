@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const LogoSVG: React.FC = ({ ...props }) => {
+/*export const LogoSVG: React.FC = ({ ...props }) => {
   return (
     <svg viewBox="0 0 102 27" fill="none" {...props}>
       <path
@@ -10,7 +10,12 @@ export const LogoSVG: React.FC = ({ ...props }) => {
     </svg>
   )
 }
-
+*/
+export const LogoSVG = () => {
+  return(
+    <div style={{color:'#fff'}}>T O P C A R S</div>
+  )
+}
 export const BurgerSVG: React.FC = ({ ...props }) => {
   return (
     <svg viewBox="0 0 45 30" fill="#fff" {...props}>
